@@ -5,6 +5,7 @@ import { PainelSimplesComponent } from './painel-simples/painel-simples.componen
 import { BarraNavegacaoComponent } from './barra-navegacao/barra-navegacao.component';
 import { MenuLateralComponent } from './barra-navegacao/menu-lateral/menu-lateral.component';
 import { ResumoComponent } from './resumo/resumo.component';
+import { ConsultaComponent } from './consulta/consulta.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ResumoComponent } from './resumo/resumo.component';
     BarraNavegacaoComponent,
     MenuLateralComponent,
     ResumoComponent,
+    ConsultaComponent,
   ],
   imports: [
     BrowserModule
